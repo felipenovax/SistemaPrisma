@@ -56,6 +56,7 @@
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.propostaComercialToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
@@ -81,6 +82,7 @@
             // arquivoToolStripMenuItem
             // 
             this.arquivoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.propostaComercialToolStripMenuItem,
             this.funcionárioToolStripMenuItem,
             this.ordemDeServiçoToolStripMenuItem2,
             this.inventárioToolStripMenuItem,
@@ -93,35 +95,35 @@
             // funcionárioToolStripMenuItem
             // 
             this.funcionárioToolStripMenuItem.Name = "funcionárioToolStripMenuItem";
-            this.funcionárioToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.funcionárioToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.funcionárioToolStripMenuItem.Text = "Funcionário";
             this.funcionárioToolStripMenuItem.Click += new System.EventHandler(this.funcionárioToolStripMenuItem_Click);
             // 
             // ordemDeServiçoToolStripMenuItem2
             // 
             this.ordemDeServiçoToolStripMenuItem2.Name = "ordemDeServiçoToolStripMenuItem2";
-            this.ordemDeServiçoToolStripMenuItem2.Size = new System.Drawing.Size(168, 22);
+            this.ordemDeServiçoToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
             this.ordemDeServiçoToolStripMenuItem2.Text = "Ordem de Serviço";
             this.ordemDeServiçoToolStripMenuItem2.Click += new System.EventHandler(this.ordemDeServiçoToolStripMenuItem2_Click);
             // 
             // inventárioToolStripMenuItem
             // 
             this.inventárioToolStripMenuItem.Name = "inventárioToolStripMenuItem";
-            this.inventárioToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.inventárioToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.inventárioToolStripMenuItem.Text = "Inventário";
             this.inventárioToolStripMenuItem.Click += new System.EventHandler(this.inventárioToolStripMenuItem_Click);
             // 
             // empresaToolStripMenuItem
             // 
             this.empresaToolStripMenuItem.Name = "empresaToolStripMenuItem";
-            this.empresaToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.empresaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.empresaToolStripMenuItem.Text = "Empresa";
             this.empresaToolStripMenuItem.Click += new System.EventHandler(this.empresaToolStripMenuItem_Click);
             // 
             // sairToolStripMenuItem
             // 
             this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.sairToolStripMenuItem.Text = "Sair";
             // 
             // manutençãoToolStripMenuItem
@@ -271,6 +273,13 @@
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
+            // propostaComercialToolStripMenuItem
+            // 
+            this.propostaComercialToolStripMenuItem.Name = "propostaComercialToolStripMenuItem";
+            this.propostaComercialToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.propostaComercialToolStripMenuItem.Text = "Proposta Comercial";
+            this.propostaComercialToolStripMenuItem.Click += new System.EventHandler(this.propostaComercialToolStripMenuItem_Click);
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -325,5 +334,6 @@
         private System.Windows.Forms.ToolStripMenuItem ordemDeServiçoToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem empresaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem usuárioToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem propostaComercialToolStripMenuItem;
     }
 }

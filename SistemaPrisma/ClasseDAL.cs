@@ -8,9 +8,9 @@ using System.Data;
 
 namespace SistemaPrisma
 {
-    class ClasseDAL
+    public class ClasseDAL
     {
-        string conectaBanco = $"server=localhost;user=root;database=prisma;port=3306;password='040288fe'";
+        public string conectaBanco = $"server=sql176.main-hosting.eu;user=u954250672_prism;database=u954250672_prism;port=3306;password='s3nh4Segur@'";
         MySqlConnection conexao = null;
         MySqlCommand comando;
 

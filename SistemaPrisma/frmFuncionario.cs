@@ -19,8 +19,9 @@ namespace SistemaPrisma
 
         public frmFuncionario()
         {
+            //ClasseDAL conexaoSQL = new ClasseDAL();
 
-            string connStr = "server=localhost;user=root;database=prisma;port=3306;password='040288fe'";
+            string connStr = "server=sql176.main-hosting.eu;user=u954250672_prism;database=u954250672_prism;port=3306;password='s3nh4Segur@'";
             conn = new MySqlConnection(connStr);
 
             classeFuncionario func = new classeFuncionario();

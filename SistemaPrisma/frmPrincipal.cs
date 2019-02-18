@@ -75,5 +75,11 @@ namespace SistemaPrisma
             frmUsuario frmUser = new frmUsuario();
             frmUser.Show();
         }
+
+        private void propostaComercialToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmPropostaComercial frmProposta = new frmPropostaComercial();
+            frmProposta.Show();
+        }
     }
 }
